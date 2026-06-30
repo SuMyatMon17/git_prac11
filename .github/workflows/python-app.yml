@@ -28,7 +28,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run Python Script
-      run: | # run python script 
+      run: | # run python script don't forget
         python extractor.py
       
 
